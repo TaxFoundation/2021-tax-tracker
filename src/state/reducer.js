@@ -1,42 +1,40 @@
-import React, { createContext, useReducer } from 'react';
-import PropTypes from 'prop-types';
+import React, { createContext, useReducer } from "react";
+import PropTypes from "prop-types";
 
-import candidates from '../generatedData/candidates.json';
-import topics from '../generatedData/topics.json';
+import sources from "../generatedData/sources.json";
+import topics from "../generatedData/topics.json";
 
 const initialState = {};
-candidates.forEach(
-  candidate => (initialState[candidate.id] = candidate.active)
-);
-topics.map(topic => (initialState[topic.id] = true));
+sources.forEach((candidate) => (initialState[candidate.id] = candidate.active));
+topics.map((topic) => (initialState[topic.id] = true));
 
 const toggleSubset = (subset, state) => {
   let toggleDirection = true;
-  subset.forEach(entry => {
+  subset.forEach((entry) => {
     if (state[entry.id]) {
       toggleDirection = false;
     }
   });
   const newEntryValues = {};
-  subset.forEach(entry => (newEntryValues[entry.id] = toggleDirection));
+  subset.forEach((entry) => (newEntryValues[entry.id] = toggleDirection));
   return { ...state, ...newEntryValues };
 };
 
 const reducer = (state, action) => {
   switch (action.id) {
-    case 'toggleRunningCandidates': {
+    case "toggleSource": {
       return toggleSubset(
-        candidates.filter(candidate => candidate.running),
+        sources.filter((candidate) => candidate.running),
         state
       );
     }
-    case 'toggleDroppedCandidates': {
+    case "toggleDroppedCandidates": {
       return toggleSubset(
-        candidates.filter(candidate => !candidate.running),
+        sources.filter((candidate) => !candidate.running),
         state
       );
     }
-    case 'toggleTopics': {
+    case "toggleTopics": {
       return toggleSubset(topics, state);
     }
     default: {

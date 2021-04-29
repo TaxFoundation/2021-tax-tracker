@@ -1,14 +1,14 @@
-import React, { useState, useRef, useEffect } from 'react';
-import PropTypes from 'prop-types';
-import { useSpring, animated } from 'react-spring';
-import useComponentSize from '@rehooks/component-size';
-import styled from 'styled-components';
+import React, { useState, useRef, useEffect } from "react";
+import PropTypes from "prop-types";
+import { useSpring, animated } from "react-spring";
+import useComponentSize from "@rehooks/component-size";
+import styled from "styled-components";
 
-import CandidatesSelect from './selection/candidatesSelect';
-import Topics from './selection/topics';
+import CandidatesSelect from "./selection/candidatesSelect";
+import Topics from "./selection/topics";
 
 const Container = styled.div`
-  background-color: ${props => props.theme.white};
+  background-color: ${(props) => props.theme.white};
   box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.3);
   margin-bottom: 1rem;
   text-align: center;
@@ -19,9 +19,9 @@ const Container = styled.div`
 `;
 
 const Toggle = styled.button`
-  background-color: ${props => props.theme.tfBlue};
+  background-color: ${(props) => props.theme.tfBlue};
   border: none;
-  color: ${props => props.theme.white};
+  color: ${(props) => props.theme.white};
   cursor: pointer;
   font-size: 1.2rem;
   height: 100%;
@@ -36,8 +36,8 @@ const Selections = styled.div`
 `;
 
 const SectionHeading = styled.h2`
-  border-bottom: 1px solid ${props => props.theme.borderColor};
-  color: ${props => props.theme.color};
+  border-bottom: 1px solid ${(props) => props.theme.borderColor};
+  color: ${(props) => props.theme.color};
   margin: 0 0 1rem;
   text-align: center;
 `;
@@ -65,13 +65,13 @@ const Selection = ({ candidates, topics }) => {
       <animated.div
         style={{
           ...props,
-          overflow: 'hidden',
-          position: 'relative',
+          overflow: "hidden",
+          position: "relative",
         }}
       >
         <Selections ref={selectionsRef}>
           <section>
-            <SectionHeading>Candidates</SectionHeading>
+            <SectionHeading>Source of Plan</SectionHeading>
             <CandidatesSelect candidates={candidates} />
           </section>
           <section>

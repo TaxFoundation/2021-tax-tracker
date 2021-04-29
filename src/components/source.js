@@ -1,10 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import React from "react";
+import PropTypes from "prop-types";
+import styled from "styled-components";
 
-import topics from '../generatedData/topics.json';
-import Images from '../images/Images';
-import ExternalLink from '../images/external-link.svg';
+import topics from "../generatedData/topics.json";
+import Images from "../images/Images";
+import ExternalLink from "../images/external-link.svg";
 
 const StyledCandidate = styled.div`
   box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.3);
@@ -32,7 +32,7 @@ const Portrait = styled.div`
   }
 
   @media print {
-    border-bottom: 2px solid ${props => props.theme.borderColor};
+    border-bottom: 2px solid ${(props) => props.theme.borderColor};
     text-align: left;
 
     h3 {
@@ -44,7 +44,7 @@ const Portrait = styled.div`
 
 const StyledImage = styled.img`
   border-radius: 50%;
-  filter: ${props => (props.active ? 'none' : 'grayscale(100%)')};
+  filter: ${(props) => (props.active ? "none" : "grayscale(100%)")};
   margin: 0 auto;
   max-width: 150px;
   width: 100%;
@@ -55,7 +55,7 @@ const StyledImage = styled.img`
 `;
 
 const ParticularPlan = styled.div`
-  border-left: 2px solid ${props => props.theme.tfBlue};
+  border-left: 2px solid ${(props) => props.theme.tfBlue};
   margin: 0.75rem 0;
   padding-left: 1rem;
 `;
@@ -88,13 +88,13 @@ const TopicDescription = styled.p`
 `;
 
 const ReadMore = styled.a`
-  color: ${props => props.theme.tfBlue};
+  color: ${(props) => props.theme.tfBlue};
   text-decoration: none;
 
   &::after {
-    background-image: ${props =>
-      props.href.includes('taxfoundation.org') ? '' : `url(${ExternalLink})`};
-    content: '';
+    background-image: ${(props) =>
+      props.href.includes("taxfoundation.org") ? "" : `url(${ExternalLink})`};
+    content: "";
     display: inline-block;
     height: 0.8rem;
     margin-left: 0.5rem;
@@ -106,11 +106,10 @@ const ReadMore = styled.a`
   }
 `;
 
-const Candidate = ({ candidate, plans }) => {
-  const image = Images.find(img => img.id === candidate.id);
+const Source = ({ candidate, plans }) => {
+  const image = Images.find((img) => img.id === candidate.id);
   const attribution =
-    image &&
-    `Portrait of ${candidate.firstName} ${candidate.lastName} by ${image.attribution}`;
+    image && `Portrait of ${candidate.name} by ${image.attribution}`;
   return (
     <StyledCandidate>
       <Portrait>
@@ -121,17 +120,17 @@ const Candidate = ({ candidate, plans }) => {
             active={candidate.running}
           />
         ) : null}
-        <h3>{`${candidate.firstName} ${candidate.lastName}`}</h3>
+        <h3>{candidate.name}</h3>
       </Portrait>
       {plans.length ? (
         <TopicsList>
           {topics.map(
-            topic =>
-              plans.some(p => p.topic === topic.id) && (
+            (topic) =>
+              plans.some((p) => p.topic === topic.id) && (
                 <Topic key={`${candidate.id}-${topic.id}`}>
                   <TopicHeading>{topic.name}</TopicHeading>
                   {plans
-                    .filter(p => p.topic === topic.id)
+                    .filter((p) => p.topic === topic.id)
                     .map((plan, i) => (
                       <ParticularPlan
                         key={`${candidate.id}-${topic.id}-plan${i}`}
@@ -143,7 +142,7 @@ const Candidate = ({ candidate, plans }) => {
                             {s}
                           </TopicDescription>
                         ))}
-                        {plan.link && plan.link !== '' && (
+                        {plan.link && plan.link !== "" && (
                           <ReadMore
                             href={plan.link}
                             target="_blank"
@@ -165,9 +164,9 @@ const Candidate = ({ candidate, plans }) => {
   );
 };
 
-export default Candidate;
+export default Source;
 
-Candidate.propTypes = {
+Source.propTypes = {
   candidate: PropTypes.object,
   plans: PropTypes.arrayOf(PropTypes.object),
 };

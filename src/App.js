@@ -1,13 +1,13 @@
-import React from 'react';
-import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import React from "react";
+import { createGlobalStyle, ThemeProvider } from "styled-components";
 
-import { Provider } from './state/reducer';
-import Theme from './Theme';
-import Selection from './components/selection';
-import Candidates from './components/candidates';
-import candidates from './generatedData/candidates';
-import topics from './generatedData/topics';
-import plans from './generatedData/plans';
+import { Provider } from "./state/reducer";
+import Theme from "./Theme";
+import Selection from "./components/selection";
+import Candidates from "./components/candidates";
+import sources from "./generatedData/sources";
+import topics from "./generatedData/topics";
+import plans from "./generatedData/plans";
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -16,21 +16,21 @@ const GlobalStyle = createGlobalStyle`
 
   html,
   body {
-    font-weight: ${props => props.theme.fontWeight};
+    font-weight: ${(props) => props.theme.fontWeight};
     line-height: 1.6;
     padding: 0 0 1px;
 
     @media screen {
-      font-size: ${props => props.theme.fontSize};
+      font-size: ${(props) => props.theme.fontSize};
     }
 
     @media print {
-      font-size: ${props => props.theme.printSize};
+      font-size: ${(props) => props.theme.printSize};
     }
   }
 
   * {
-    font-family: ${props => props.theme.fontFamilies.lato};
+    font-family: ${(props) => props.theme.fontFamilies.lato};
   }
 
   div,
@@ -47,8 +47,8 @@ function App() {
     <ThemeProvider theme={Theme}>
       <Provider>
         <GlobalStyle />
-        <Selection candidates={candidates} topics={topics} />
-        <Candidates candidates={candidates} topics={topics} plans={plans} />
+        <Selection candidates={sources} topics={topics} />
+        <Candidates sources={sources} topics={topics} plans={plans} />
       </Provider>
     </ThemeProvider>
   );

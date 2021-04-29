@@ -1,13 +1,13 @@
-import React, { useContext } from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import React, { useContext } from "react";
+import PropTypes from "prop-types";
+import styled from "styled-components";
 
-import { Context } from '../state/reducer';
-import Candidate from './candidate';
-import { alphabeticalSort } from '../utilities';
+import { Context } from "../state/reducer";
+import Source from "./source";
+import { alphabeticalSort } from "../utilities";
 
 const Container = styled.div`
-  background-color: ${props => props.theme.white};
+  background-color: ${(props) => props.theme.white};
   display: grid;
   grid-gap: 0.5rem;
   margin-bottom: 0.5rem;
@@ -17,21 +17,21 @@ const Container = styled.div`
   }
 `;
 
-const Candidates = ({ candidates, plans }) => {
+const Candidates = ({ sources, plans }) => {
   const { data } = useContext(Context);
-  const activePlans = plans.filter(plan => data[plan.topic]);
+  const activePlans = plans.filter((plan) => data[plan.topic]);
   return (
     <Container>
-      {candidates
-        .sort((a, b) => alphabeticalSort(a.lastName, b.lastName))
+      {sources
+        .sort((a, b) => alphabeticalSort(a.name, b.name))
         .map(
-          candidate =>
-            data[candidate.id] && (
-              <section key={`${candidate.id}-plans`}>
-                <Candidate
-                  candidate={candidate}
+          (source) =>
+            data[source.id] && (
+              <section key={`${source.id}-plans`}>
+                <Source
+                  candidate={source}
                   plans={activePlans.filter(
-                    plan => plan.candidate === candidate.id
+                    (plan) => plan.source === source.id
                   )}
                 />
               </section>

@@ -1,12 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import Button from '../ui/button';
+import Button from "../ui/button";
 
 const CandidateSelect = ({ candidate }) => (
-  <Button
-    id={candidate.id}
-  >{`${candidate.firstName} ${candidate.lastName}`}</Button>
+  <Button id={candidate.id}>{candidate.name}</Button>
 );
 
 CandidateSelect.propTypes = {

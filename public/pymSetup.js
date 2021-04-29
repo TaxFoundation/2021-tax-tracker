@@ -1,7 +1,7 @@
-window.addEventListener('load', function() {
+window.addEventListener("load", function () {
   const pymParent = new pym.Parent(
-    '2020-tracker',
-    'https://2020-presidential-tax-tracker.netlify.com/index.html',
+    "2021-tracker",
+    "https://2021-tax-tracker.netlify.com/index.html",
     {}
   );
 });
