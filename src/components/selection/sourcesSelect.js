@@ -1,17 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import CandidateSelect from "./candidateSelect";
+import SourceSelect from "./sourceSelect";
 import Button from "../ui/button";
 import { StyledUnorderedList, StyledListItem } from "../ui/list";
 import { alphabeticalSort } from "../../utilities";
 
-const SelectionGroup = ({ id, candidates }) => (
+const SelectionGroup = ({ id, sources }) => (
   <>
     <StyledUnorderedList>
-      {candidates.map((candidate) => (
-        <StyledListItem key={`${candidate.id}-select`}>
-          <CandidateSelect candidate={candidate} />
+      {sources.map((source) => (
+        <StyledListItem key={`${source.id}-select`}>
+          <SourceSelect source={source} />
         </StyledListItem>
       ))}
       <StyledListItem>
@@ -21,11 +21,11 @@ const SelectionGroup = ({ id, candidates }) => (
   </>
 );
 
-const CandidatesSelect = ({ candidates }) => (
+const CandidatesSelect = ({ sources }) => (
   <>
     <SelectionGroup
       id="toggleSource"
-      candidates={candidates.sort((a, b) => alphabeticalSort(a.name, b.name))}
+      sources={sources.sort((a, b) => alphabeticalSort(a.name, b.name))}
     />
   </>
 );
@@ -33,11 +33,11 @@ const CandidatesSelect = ({ candidates }) => (
 SelectionGroup.propTypes = {
   heading: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
-  candidates: PropTypes.arrayOf(PropTypes.object),
+  sources: PropTypes.arrayOf(PropTypes.object),
 };
 
 CandidatesSelect.propTypes = {
-  candidates: PropTypes.arrayOf(PropTypes.object),
+  sources: PropTypes.arrayOf(PropTypes.object),
 };
 
 export default CandidatesSelect;

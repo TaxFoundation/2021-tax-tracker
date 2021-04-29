@@ -4,7 +4,7 @@ import { createGlobalStyle, ThemeProvider } from "styled-components";
 import { Provider } from "./state/reducer";
 import Theme from "./Theme";
 import Selection from "./components/selection";
-import Candidates from "./components/candidates";
+import Sources from "./components/sources";
 import sources from "./generatedData/sources";
 import topics from "./generatedData/topics";
 import plans from "./generatedData/plans";
@@ -47,8 +47,8 @@ function App() {
     <ThemeProvider theme={Theme}>
       <Provider>
         <GlobalStyle />
-        <Selection candidates={sources} topics={topics} />
-        <Candidates sources={sources} topics={topics} plans={plans} />
+        <Selection sources={sources} topics={topics} />
+        <Sources sources={sources} topics={topics} plans={plans} />
       </Provider>
     </ThemeProvider>
   );

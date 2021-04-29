@@ -17,7 +17,7 @@ const Container = styled.div`
   }
 `;
 
-const Candidates = ({ sources, plans }) => {
+const Sources = ({ sources, plans }) => {
   const { data } = useContext(Context);
   const activePlans = plans.filter((plan) => data[plan.topic]);
   return (
@@ -29,7 +29,7 @@ const Candidates = ({ sources, plans }) => {
             data[source.id] && (
               <section key={`${source.id}-plans`}>
                 <Source
-                  candidate={source}
+                  source={source}
                   plans={activePlans.filter(
                     (plan) => plan.source === source.id
                   )}
@@ -41,9 +41,9 @@ const Candidates = ({ sources, plans }) => {
   );
 };
 
-export default Candidates;
+export default Sources;
 
-Candidates.propTypes = {
-  candidates: PropTypes.arrayOf(PropTypes.object),
+Sources.propTypes = {
+  sources: PropTypes.arrayOf(PropTypes.object),
   plans: PropTypes.arrayOf(PropTypes.object),
 };

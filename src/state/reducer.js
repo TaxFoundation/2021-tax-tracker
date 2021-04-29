@@ -5,7 +5,7 @@ import sources from "../generatedData/sources.json";
 import topics from "../generatedData/topics.json";
 
 const initialState = {};
-sources.forEach((candidate) => (initialState[candidate.id] = candidate.active));
+sources.forEach((source) => (initialState[source.id] = source.active));
 topics.map((topic) => (initialState[topic.id] = true));
 
 const toggleSubset = (subset, state) => {
@@ -24,13 +24,13 @@ const reducer = (state, action) => {
   switch (action.id) {
     case "toggleSource": {
       return toggleSubset(
-        sources.filter((candidate) => candidate.running),
+        sources.filter((source) => source.running),
         state
       );
     }
     case "toggleDroppedCandidates": {
       return toggleSubset(
-        sources.filter((candidate) => !candidate.running),
+        sources.filter((source) => !source.running),
         state
       );
     }

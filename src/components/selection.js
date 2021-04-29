@@ -4,7 +4,7 @@ import { useSpring, animated } from "react-spring";
 import useComponentSize from "@rehooks/component-size";
 import styled from "styled-components";
 
-import CandidatesSelect from "./selection/candidatesSelect";
+import SourcesSelect from "./selection/sourcesSelect";
 import Topics from "./selection/topics";
 
 const Container = styled.div`
@@ -42,7 +42,7 @@ const SectionHeading = styled.h2`
   text-align: center;
 `;
 
-const Selection = ({ candidates, topics }) => {
+const Selection = ({ sources, topics }) => {
   const [showSelections, setShowSelections] = useState(false);
   const containerRef = useRef(null);
   const selectionsRef = useRef(null);
@@ -61,7 +61,7 @@ const Selection = ({ candidates, topics }) => {
 
   return (
     <Container ref={containerRef}>
-      <Toggle onClick={handleToggle}>Toggle Candidate and Topic Filters</Toggle>
+      <Toggle onClick={handleToggle}>Toggle Source and Topic Filters</Toggle>
       <animated.div
         style={{
           ...props,
@@ -72,7 +72,7 @@ const Selection = ({ candidates, topics }) => {
         <Selections ref={selectionsRef}>
           <section>
             <SectionHeading>Source of Plan</SectionHeading>
-            <CandidatesSelect candidates={candidates} />
+            <SourcesSelect sources={sources} />
           </section>
           <section>
             <SectionHeading>Topics</SectionHeading>
@@ -85,7 +85,7 @@ const Selection = ({ candidates, topics }) => {
 };
 
 Selection.propTypes = {
-  candidates: PropTypes.array,
+  sources: PropTypes.array,
   topics: PropTypes.array,
 };
 

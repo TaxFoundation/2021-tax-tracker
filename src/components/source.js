@@ -106,10 +106,10 @@ const ReadMore = styled.a`
   }
 `;
 
-const Source = ({ candidate, plans }) => {
-  const image = Images.find((img) => img.id === candidate.id);
+const Source = ({ source, plans }) => {
+  const image = Images.find((img) => img.id === source.id);
   const attribution =
-    image && `Portrait of ${candidate.name} by ${image.attribution}`;
+    image && `Portrait of ${source.name} by ${image.attribution}`;
   return (
     <StyledCandidate>
       <Portrait>
@@ -117,27 +117,25 @@ const Source = ({ candidate, plans }) => {
           <StyledImage
             src={image.image}
             alt={attribution}
-            active={candidate.running}
+            active={source.running}
           />
         ) : null}
-        <h3>{candidate.name}</h3>
+        <h3>{source.name}</h3>
       </Portrait>
       {plans.length ? (
         <TopicsList>
           {topics.map(
             (topic) =>
               plans.some((p) => p.topic === topic.id) && (
-                <Topic key={`${candidate.id}-${topic.id}`}>
+                <Topic key={`${source.id}-${topic.id}`}>
                   <TopicHeading>{topic.name}</TopicHeading>
                   {plans
                     .filter((p) => p.topic === topic.id)
                     .map((plan, i) => (
-                      <ParticularPlan
-                        key={`${candidate.id}-${topic.id}-plan${i}`}
-                      >
+                      <ParticularPlan key={`${source.id}-${topic.id}-plan${i}`}>
                         {plan.plan.split(/\n/).map((s, j) => (
                           <TopicDescription
-                            key={`${candidate.id}-${topic.id}-plan${i}-p${j}`}
+                            key={`${source.id}-${topic.id}-plan${i}-p${j}`}
                           >
                             {s}
                           </TopicDescription>
@@ -158,7 +156,7 @@ const Source = ({ candidate, plans }) => {
           )}
         </TopicsList>
       ) : (
-        <p>Sorry, no plans match these topics for this candidate.</p>
+        <p>Sorry, no plans match these topics for this source.</p>
       )}
     </StyledCandidate>
   );
@@ -167,6 +165,6 @@ const Source = ({ candidate, plans }) => {
 export default Source;
 
 Source.propTypes = {
-  candidate: PropTypes.object,
+  source: PropTypes.object,
   plans: PropTypes.arrayOf(PropTypes.object),
 };
