@@ -1,6 +1,9 @@
 - id: biden
   name: White House
   active: true
-- id: congress
-  name: Congress
+- id: senate
+  name: Senate
   active: true
+- id: house
+  name: House
+  active: true 
