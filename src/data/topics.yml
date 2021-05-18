@@ -3,7 +3,7 @@
   name: Individual Income Taxes
   category: individual
   description:
-- id: individual
+- id: cap_gains
   order: 2
   name: Capital Gains and Dividend Taxes
   category: individual
