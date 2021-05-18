@@ -1,4 +1,80 @@
 - source: biden
   topic: international
   link: https://taxfoundation.org/biden-international-tax-proposals/ 
-  plan: The "Made in America Tax Plan" proposes repealing the deduction for foreign-derived intangible income (FDII), raising the tax rate on global intangible low-taxed income (GILTI) to 21 percent, and tightening the GILTI rules.
+  plan: The American Jobs Plan would raise the tax rate on global intangible low-taxed income (GILTI) to 21 percent, calculate it on a country-by-country basis, and eliminate the exemption of a 10 percent return on tangible investment abroad (QBAI).
+- source: biden
+  topic: corporate
+  link: https://taxfoundation.org/biden-corporate-income-tax-rate/
+  plan: The American Jobs Plan would increase the federal corporate income tax rate from 21 percent to 28 percent.
+- source: biden
+  topic: corporate
+  link: https://taxfoundation.org/biden-corporate-income-tax-rate/
+  plan: The American Jobs Plan would impose a 15 percent minimum tax on corporate book income, which would be levied on a firm’s financial profits instead of taxable income for firms with revenue over $100 million.
+- source: biden
+  topic: international
+  link: https://taxfoundation.org/biden-international-tax-proposals/
+  plan: The American Jobs Plan would repeal the deduction for foreign-derived intangible income (FDII).
+- source: biden
+  topic: business_credits
+  link: https://taxfoundation.org/biden-infrastructure-american-jobs-plan/
+  plan: The American Jobs Plan would provide a tax credit for certain onshoring activity and deny expense deductions for offshored jobs.
+- source: biden
+  topic: corporate
+  link: https://taxfoundation.org/biden-infrastructure-american-jobs-plan/
+  plan: The American Jobs Plan would increase corporate tax enforcement.
+- source: biden
+  topic: business_credits
+  link: https://taxfoundation.org/biden-infrastructure-american-jobs-plan/
+  plan: The American Jobs Plan would repeal certain credits and deductions for the fossil fuel industry.
+- source: biden
+  topic: individual
+  link: https://taxfoundation.org/american-families-plan/
+  plan: The American Families Plan would raise the top marginal income tax rate from 37 percent to 39.6 percent.
+- source: biden
+  topic: cap_gains
+  link: https://taxfoundation.org/american-families-plan/
+  plan: The American Families Plan would tax long-term capital gains and dividends as ordinary income for taxpayers with taxable income above $1 million.
+- source: biden
+  topic: cap_gains
+  link: https://taxfoundation.org/american-families-plan/
+  plan: The American Families Plan would tax capital gains at death for unrealized gains above $1 million ($2 million for joint filers).
+- source: biden
+  topic: passthrough
+  link: https://taxfoundation.org/american-families-plan/
+  plan: The American Families Plan would expand the 3.8 percent Net Investment Income Tax (NIIT) to apply to all sources of income above $400,000, including active pass-through income.
+- source: biden
+  topic: cap_gains
+  link: https://taxfoundation.org/american-families-plan/
+  plan: The American Families Plan would limit 1031 Like-Kind Exchanges by eliminating deferral of gains above $500,000.                    
+- source: biden
+  topic: passthrough
+  link: https://taxfoundation.org/american-families-plan/
+  plan: The American Families Plan would make permanent the 2017 tax law's Section 461(l) limitation on pass-through business losses above $250,000 for single filers and $500,000 for joint filers.
+- source: biden
+  topic: cap_gains
+  link: https://taxfoundation.org/american-families-plan/
+  plan: The American Families Plan would tax carried interest as ordinary income.
+- source: biden
+  topic: individual_credits
+  link: https://taxfoundation.org/american-families-plan/
+  plan: The American Families Plan would extend through 2025 the American Rescue Plan's enhanced Child Tax Credit (CTC) of $3,600 for children under age 6 and $3,000 for children ages 6 to 17 to certain taxpayers.
+- source: biden
+  topic: individual_credits
+  link: https://taxfoundation.org/american-families-plan/
+  plan: The American Families Plan would make permanent the American Rescue Plan's expanded Earned Income Tax Credit (EITC) for workers without qualifying children, including doubled phase-in and phaseout rates and higher phase-in and phaseout income levels.
+- source: biden
+  topic: individual_credits
+  link: https://taxfoundation.org/american-families-plan/
+  plan: The American Families Plan would make permanent the expanded health insurance Premium Tax Credits provided in American Rescue Plan.
+- source: biden
+  topic: individual_credits
+  link: https://taxfoundation.org/american-families-plan/
+  plan: The American Families Plan would make permanent the American Rescue Plan's expanded Child and Dependent Care Tax Credit (CDCTC), which covers up to 50 percent of qualifying childcare expenses up to $4,000 for one child and $8,000 for two or more children.
+- source: biden
+  topic: individual_credits
+  link: https://taxfoundation.org/american-families-plan/
+  plan: The American Families Plan would make permanent the American Rescue Plan's full refundability of the Child Tax Credit, eliminating the income phase-in of the credit.   
+- source: biden
+  topic: individual
+  link: https://taxfoundation.org/biden-first-100-days-taxes/
+  plan: The American Families Plan would increase Internal Revenue Service (IRS) funding for individual income tax enforcement and enact new reporting requirements for financial institutions.     
