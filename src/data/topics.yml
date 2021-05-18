@@ -1,5 +1,39 @@
-- id: taxes
-  order: 0
-  name: Some kind of tax stuff
+- id: individual
+  order: 1
+  name: Individual Income Taxes
   category: individual
   description:
+- id: cap_gains
+  order: 2
+  name: Capital Gains and Dividend Taxes
+  category: individual
+  description: 
+- id: individual_credits
+  order: 3
+  name: Individual Income Tax Credits
+  category: individual
+  description:   
+- id: estate
+  order: 4
+  name: Estate and Gift Taxes Taxes
+  category: individual
+  description:    
+- id: corporate
+  order: 5
+  name: Corporate Income Taxes
+  category: business
+  description:  
+- id: passthrough
+  order: 6
+  name: Pass-Through Business Taxes
+  category: business
+  description:    
+- id: business_credits
+  order: 7
+  name: Business Tax Credits
+  category: business
+  description: 
+- id: international
+  order: 8
+  name: International Taxes
+  category: business
