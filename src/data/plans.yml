@@ -77,4 +77,40 @@
 - source: biden
   topic: individual
   link: https://taxfoundation.org/biden-first-100-days-taxes/
-  plan: The American Families Plan would increase Internal Revenue Service (IRS) funding for individual income tax enforcement and enact new reporting requirements for financial institutions.     
+  plan: The American Families Plan would increase Internal Revenue Service (IRS) funding for individual income tax enforcement and enact new reporting requirements for financial institutions.  
+- source: house
+  topic: corporate
+  link: https://taxfoundation.org/republican-study-committee-budget/ 
+  plan: The Republican Study Comittee Budget contains many policies including permanent full and immediate expensing for investment in short-lived assets and accelerated and indexed depreciation for construction expenses.
+- source: senate
+  topic: corporate
+  link: https://taxfoundation.org/end-taxpayer-subsidies-for-drug-ads-act/
+  plan: The Deny Deductions for Drug Advertising Act would prevent companies from deducting the cost of direct-to-consumer pharmaceutical advertising.      
+- source: senate
+  topic: corporate
+  link: https://taxfoundation.org/bernie-sanders-ceo-pay-tax/
+  plan: The Tax Excessive CEO Pay Act would increase the corporate tax rate a company pays based on the ratio of their CEO’s pay to the pay of the median worker.  
+- source: senate
+  topic: business_credits
+  link: https://taxfoundation.org/wyden-energy-tax-bill-infrastructure/
+  plan: The Clean Energy for America Act would consolidate several clean energy-related tax provisions, providing more generous tax subsidies for clean energy while removing deductions and credits related to fossil fuel production.  
+- source: senate
+  topic: individual_credits
+  link: https://taxfoundation.org/child-allowance-romney-tax-proposal/
+  plan: The Family Security Act would expand the Child Tax Credit, overhaul the Earned Income Tax Credit,a nd make other tax and spending changes.  
+- source: senate
+  topic: individual_credits
+  link: https://www.congress.gov/bill/117th-congress/senate-bill/1426
+  plan: The Parent Tax Credit would provide a $6,000 payment for single parents and $12,000 for married parents for children below the age of 13.   
+- source: house
+  topic: individual
+  link: https://www.congress.gov/bill/117th-congress/house-bill/2954/text
+  plan: The Securing a Strong Retirement Act of 2021 would make several changes to tax-related retirement rules.  
+- source: senate
+  topic: cap_gains
+  link: https://www.vanhollen.senate.gov/download/step-act-discussion-draft
+  plan: The Sensible Taxation and Equity Promotion (STEP) Act would tax unrealized capital gains passed to heirs with a $1 million exclusion, payable over 15 years.  
+- source: senate
+  topic: estate
+  link: https://www.congress.gov/bill/117th-congress/senate-bill/994
+  plan: The For the 99.5 Percent Act would reduce the estate tax exemption to $3.5 million and increase the progressivity of the estate tax with rates from 45% to 65%, among other changes.            
