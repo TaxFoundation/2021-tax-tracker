@@ -109,4 +109,8 @@
 - source: senate
   topic: cap_gains
   link: https://www.vanhollen.senate.gov/download/step-act-discussion-draft
-  plan: The Sensible Taxation and Equity Promotion (STEP) Act would tax unrealized capital gains passed to heirs with a $1 million exclusion, payable over 15 years.            
+  plan: The Sensible Taxation and Equity Promotion (STEP) Act would tax unrealized capital gains passed to heirs with a $1 million exclusion, payable over 15 years.  
+- source: senate
+  topic: estate
+  link: https://www.congress.gov/bill/117th-congress/senate-bill/994
+  plan: The For the 99.5 Percent Act would reduce the estate tax exemption to $3.5 million and increase the progressivity of the estate tax with rates from 45% to 65%, among other changes.            
