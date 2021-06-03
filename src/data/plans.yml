@@ -103,9 +103,9 @@
   link: https://www.congress.gov/bill/117th-congress/senate-bill/1426
   plan: The Parent Tax Credit would provide a $6,000 payment for single parents and $12,000 for married parents for children below the age of 13.   
 - source: house
-  topic: individual
+  topic: retirement
   link: https://www.congress.gov/bill/117th-congress/house-bill/2954/text
-  plan: The Securing a Strong Retirement Act of 2021 would make several changes to tax-related retirement rules.  
+  plan: The Securing a Strong Retirement Act of 2021 ("SECURE Act 2.0") would make several changes to expand automatic enrollment, incentivize small business retirement plans, and simplify retirement rules.  
 - source: senate
   topic: cap_gains
   link: https://www.vanhollen.senate.gov/download/step-act-discussion-draft
@@ -113,4 +113,12 @@
 - source: senate
   topic: estate
   link: https://www.congress.gov/bill/117th-congress/senate-bill/994
-  plan: The For the 99.5 Percent Act would reduce the estate tax exemption to $3.5 million and increase the progressivity of the estate tax with rates from 45% to 65%, among other changes.            
+  plan: The For the 99.5 Percent Act would reduce the estate tax exemption to $3.5 million and increase the progressivity of the estate tax with rates from 45% to 65%, among other changes.    
+- source: senate
+  topic: retirement
+  link: https://www.cardin.senate.gov/imo/media/doc/Retirement%20Security%20&%20Savings%20Act%20of%202021.pdf
+  plan: The Retirement Security and Savings Act would require automatic enrollment for certain retirement plans, increase small business tax credits, and make other changes to retirement savings rules. 
+- source: senate
+  topic: retirement
+  link: https://www.grassley.senate.gov/imo/media/doc/improving_access_to_retirement_savings_act_2021_bill_text.pdf 
+  plan: The Improving Access to Retirement Savings Act is similar to the House's SECURE Act 2.0 and would simplify retirement account rules for non-profits, among other changes.             
