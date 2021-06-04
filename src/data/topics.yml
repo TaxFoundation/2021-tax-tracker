@@ -15,7 +15,7 @@
   description:   
 - id: estate
   order: 4
-  name: Estate and Gift Taxes Taxes
+  name: Estate and Gift Taxes
   category: individual
   description:    
 - id: corporate
@@ -40,4 +40,8 @@
 - id: retirement
   order: 9
   name: Retirement Savings Accounts
-  category: individual  
+  category: individual
+- id: wealth
+  order: 10
+  name: Wealth Taxes 
+  category: individual   

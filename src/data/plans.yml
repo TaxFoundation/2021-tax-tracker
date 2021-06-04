@@ -122,3 +122,39 @@
   topic: retirement
   link: https://www.grassley.senate.gov/imo/media/doc/improving_access_to_retirement_savings_act_2021_bill_text.pdf 
   plan: The Improving Access to Retirement Savings Act would simplify retirement account rules for non-profits, among other changes.             
+- source: senate
+  topic: wealth
+  link: https://taxfoundation.org/wealth-tax/
+  plan: The Ultra Millionaire Tax Act of 2021 would impose a progressive wealth tax on the assets of applicable taxpayers. 
+- source: house
+  topic: wealth
+  link: https://taxfoundation.org/wealth-tax/
+  plan: The Ultra Millionaire Tax Act of 2021 (identical to Senate version) would impose a progressive wealth tax on the assets of applicable taxpayers.
+- source: senate
+  topic: international
+  link: https://taxfoundation.org/intellectual-property-ip-tax-gilti-fdii/
+  plan: Three Democratic members of the Senate Finance Committee released a plan that would overhaul three aspects of international taxation--Global Intangible Low-Taxed Income (GILTI), Foreign Derived Intangible Income (FDII) and the Base Erosion and Anti-Abuse Tax (BEAT).      
+- source: senate
+  topic: corporate
+  link: https://www.congress.gov/bill/117th-congress/senate-bill/991/text?r=75&s=1
+  plan: The Corporate Tax Dodging Prevention Act would institute a progressive corporate income tax and change rules for foreign income.
+- source: senate
+  topic: corporate
+  link: https://www.congress.gov/bill/117th-congress/senate-bill/1077?q=%7B%22search%22%3A%22s.1077%22%7D&r=1&s=2
+  plan: The Permanently Preserving America's Investment in Manufacturing Act would maintain the limitation on the business interest deduction at 30 percent of EBITDA.
+- source: house
+  topic: corporate
+  link: https://www.congress.gov/bill/117th-congress/house-bill/1304/text 
+  plan: The American Innovation and R&D Competitiveness Act would cancel R&D amortization.  
+- source: senate
+  topic: corporate
+  link: https://www.congress.gov/bill/117th-congress/senate-bill/749
+  plan: The American Innovation and Jobs Act would cancel R&D amortization and expand the R&D tax credit. 
+- source: house
+  topic: business_credits
+  link: https://www.congress.gov/bill/117th-congress/house-bill/848
+  plan: The GREEN Act of 2021 would extend and expand various tax credits for green energy and direct the Treasury Department to investigate carbon pricing. 
+- source: senate
+  topic: corporate
+  link: https://www.congress.gov/bill/117th-congress/senate-bill/197?r=7&s=1
+  plan: The CREATE JOBs Act would allow permanent 100 percent bonus depreciation for short-lived assets, cancel R&D amortization, and implement a Neutral Cost Recovery System (NCRS) for investments in structures.
