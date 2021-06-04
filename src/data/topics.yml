@@ -4,12 +4,12 @@
   category: individual
   description:
 - id: cap_gains
-  order: 2
+  order: 3
   name: Capital Gains and Dividends Taxes
   category: individual
   description: 
 - id: individual_credits
-  order: 3
+  order: 2
   name: Individual Income Tax Credits
   category: individual
   description:   
@@ -19,29 +19,29 @@
   category: individual
   description:    
 - id: corporate
-  order: 5
+  order: 7
   name: Corporate Income Taxes
   category: business
   description:  
 - id: passthrough
-  order: 6
+  order: 8
   name: Pass-Through Business Taxes
   category: business
   description:    
 - id: business_credits
-  order: 7
+  order: 9
   name: Business Tax Credits
   category: business
   description: 
 - id: international
-  order: 8
+  order: 10
   name: International Taxes
   category: business
 - id: retirement
-  order: 9
+  order: 6
   name: Retirement Savings Accounts
   category: individual
 - id: wealth
-  order: 10
+  order: 5
   name: Wealth Taxes 
   category: individual   
