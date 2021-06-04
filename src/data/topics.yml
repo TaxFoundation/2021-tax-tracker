@@ -3,21 +3,31 @@
   name: Individual Income Taxes
   category: individual
   description:
+- id: individual_credits
+  order: 2
+  name: Individual Income Tax Credits
+  category: individual
+  description: 
 - id: cap_gains
   order: 3
   name: Capital Gains and Dividends Taxes
   category: individual
   description: 
-- id: individual_credits
-  order: 2
-  name: Individual Income Tax Credits
-  category: individual
-  description:   
 - id: estate
   order: 4
   name: Estate and Gift Taxes
   category: individual
   description:    
+- id: wealth
+  order: 5
+  name: Wealth Taxes 
+  category: individual  
+  description: 
+- id: retirement
+  order: 6
+  name: Retirement Savings Accounts
+  category: individual
+  description:
 - id: corporate
   order: 7
   name: Corporate Income Taxes
@@ -37,11 +47,4 @@
   order: 10
   name: International Taxes
   category: business
-- id: retirement
-  order: 6
-  name: Retirement Savings Accounts
-  category: individual
-- id: wealth
-  order: 5
-  name: Wealth Taxes 
-  category: individual   
+  description:
