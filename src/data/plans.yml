@@ -57,7 +57,7 @@
 - source: biden
   topic: individual_credits
   link: https://taxfoundation.org/american-families-plan/
-  plan: The American Families Plan would extend through 2025 the American Rescue Plan's enhanced Child Tax Credit (CTC) of $3,600 for children under age 6 and $3,000 for children ages 6 to 17 to certain taxpayers.
+  plan: The American Families Plan would extend through 2025 the American Rescue Plan's enhanced Child Tax Credit (CTC) of $3,600 for children under age 6 and $3,000 for children ages 6 to 17 subject to phaseouts for higher-income households.
 - source: biden
   topic: individual_credits
   link: https://taxfoundation.org/american-families-plan/
@@ -65,7 +65,7 @@
 - source: biden
   topic: individual_credits
   link: https://taxfoundation.org/american-families-plan/
-  plan: The American Families Plan would make permanent the expanded health insurance Premium Tax Credits provided in American Rescue Plan.
+  plan: The American Families Plan would make permanent the expanded health insurance Premium Tax Credits provided in the American Rescue Plan.
 - source: biden
   topic: individual_credits
   link: https://taxfoundation.org/american-families-plan/
@@ -113,7 +113,7 @@
 - source: senate
   topic: estate
   link: https://www.congress.gov/bill/117th-congress/senate-bill/994
-  plan: The For the 99.5 Percent Act would reduce the estate tax exemption to $3.5 million and increase the progressivity of the estate tax with rates from 45% to 65%, among other changes.    
+  plan: The For the 99.5 Percent Act would reduce the estate tax exemption to $3.5 million (from $11.7 million in 2021) and increase the progressivity of the estate tax with rates from 45 percent to 65 percent, among other changes.    
 - source: senate
   topic: retirement
   link: https://www.cardin.senate.gov/imo/media/doc/Retirement%20Security%20&%20Savings%20Act%20of%202021.pdf
@@ -121,7 +121,7 @@
 - source: senate
   topic: retirement
   link: https://www.grassley.senate.gov/imo/media/doc/improving_access_to_retirement_savings_act_2021_bill_text.pdf 
-  plan: The Improving Access to Retirement Savings Act would simplify retirement account rules for non-profits, among other changes.             
+  plan: The Improving Access to Retirement Savings Act would simplify retirement account rules for nonprofits, among other changes.             
 - source: senate
   topic: wealth
   link: https://taxfoundation.org/wealth-tax/
@@ -141,15 +141,15 @@
 - source: senate
   topic: corporate
   link: https://www.congress.gov/bill/117th-congress/senate-bill/1077?q=%7B%22search%22%3A%22s.1077%22%7D&r=1&s=2
-  plan: The Permanently Preserving America's Investment in Manufacturing Act would maintain the limitation on the business interest deduction at 30 percent of EBITDA.
+  plan: The Permanently Preserving America's Investment in Manufacturing Act would maintain the limitation on the business interest deduction at 30 percent of EBITDA (earnings before interest, taxes, depreciation, and amortization).
 - source: house
   topic: corporate
   link: https://www.congress.gov/bill/117th-congress/house-bill/1304/text 
-  plan: The American Innovation and R&D Competitiveness Act would cancel R&D amortization.  
+  plan: The American Innovation and R&D Competitiveness Act would cancel research & development (R&D) amortization.  
 - source: senate
   topic: corporate
   link: https://www.congress.gov/bill/117th-congress/senate-bill/749
-  plan: The American Innovation and Jobs Act would cancel R&D amortization and expand the R&D tax credit. 
+  plan: The American Innovation and Jobs Act would cancel research & development (R&D) amortization and expand the R&D tax credit. 
 - source: house
   topic: business_credits
   link: https://www.congress.gov/bill/117th-congress/house-bill/848
@@ -157,7 +157,7 @@
 - source: senate
   topic: corporate
   link: https://www.congress.gov/bill/117th-congress/senate-bill/197?r=7&s=1
-  plan: The CREATE JOBs Act would allow permanent 100 percent bonus depreciation for short-lived assets, cancel R&D amortization, and implement a Neutral Cost Recovery System (NCRS) for investments in structures.
+  plan: The CREATE JOBS Act would allow permanent 100 percent bonus depreciation for short-lived assets, cancel research & development (R&D) amortization, and implement a Neutral Cost Recovery System (NCRS) for investments in structures.
 - source: house
   topic: excise
   link: https://www.congress.gov/bill/116th-congress/house-bill/3
