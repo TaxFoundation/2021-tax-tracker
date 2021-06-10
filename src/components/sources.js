@@ -4,7 +4,6 @@ import styled from "styled-components";
 
 import { Context } from "../state/reducer";
 import Source from "./source";
-import { alphabeticalSort } from "../utilities";
 
 const Container = styled.div`
   background-color: ${(props) => props.theme.white};
@@ -19,24 +18,23 @@ const Container = styled.div`
 
 const Sources = ({ sources, plans }) => {
   const { data } = useContext(Context);
-  const activePlans = plans.filter((plan) => data[plan.topic]);
+  console.log(plans, data);
+  const activePlans = plans.filter(
+    (plan) => data[plan.topic] && data[plan.bill]
+  );
   return (
     <Container>
-      {sources
-        .sort((a, b) => alphabeticalSort(a.name, b.name))
-        .map(
-          (source) =>
-            data[source.id] && (
-              <section key={`${source.id}-plans`}>
-                <Source
-                  source={source}
-                  plans={activePlans.filter(
-                    (plan) => plan.source === source.id
-                  )}
-                />
-              </section>
-            )
-        )}
+      {sources.map(
+        (source) =>
+          data[source.id] && (
+            <section key={`${source.id}-plans`}>
+              <Source
+                source={source}
+                plans={activePlans.filter((plan) => plan.source === source.id)}
+              />
+            </section>
+          )
+      )}
     </Container>
   );
 };

@@ -7,22 +7,22 @@
   order: 2
   name: Individual Income Tax Credits
   category: individual
-  description: 
+  description:
 - id: cap_gains
   order: 3
   name: Capital Gains and Dividends Taxes
   category: individual
-  description: 
+  description:
 - id: estate
   order: 4
   name: Estate and Gift Taxes
   category: individual
-  description:    
+  description:
 - id: wealth
   order: 5
-  name: Wealth Taxes 
-  category: individual  
-  description: 
+  name: Wealth Taxes
+  category: individual
+  description:
 - id: retirement
   order: 6
   name: Retirement Savings Accounts
@@ -32,17 +32,17 @@
   order: 7
   name: Corporate Income Taxes
   category: business
-  description:  
+  description:
 - id: passthrough
   order: 8
   name: Pass-Through Business Taxes
   category: business
-  description:    
+  description:
 - id: business_credits
   order: 9
   name: Business Tax Credits
   category: business
-  description: 
+  description:
 - id: international
   order: 10
   name: International Taxes
@@ -52,4 +52,4 @@
   order: 11
   name: Excise Taxes
   category: business
-  description:   
+  description:
