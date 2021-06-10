@@ -42,7 +42,7 @@ const SectionHeading = styled.h2`
   text-align: center;
 `;
 
-const Selection = ({ sources, topics }) => {
+const Selection = ({ bills, sources, topics }) => {
   const [showSelections, setShowSelections] = useState(false);
   const containerRef = useRef(null);
   const selectionsRef = useRef(null);
@@ -75,6 +75,10 @@ const Selection = ({ sources, topics }) => {
             <SourcesSelect sources={sources} />
           </section>
           <section>
+            <SectionHeading>Bill</SectionHeading>
+            <SourcesSelect sources={bills} />
+          </section>
+          <section>
             <SectionHeading>Topics</SectionHeading>
             <Topics topics={topics} />
           </section>
@@ -85,6 +89,7 @@ const Selection = ({ sources, topics }) => {
 };
 
 Selection.propTypes = {
+  bills: PropTypes.array,
   sources: PropTypes.array,
   topics: PropTypes.array,
 };
