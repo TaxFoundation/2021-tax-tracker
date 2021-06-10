@@ -19,7 +19,10 @@ const Container = styled.div`
 
 const Sources = ({ sources, plans }) => {
   const { data } = useContext(Context);
-  const activePlans = plans.filter((plan) => data[plan.topic]);
+  console.log(plans, data);
+  const activePlans = plans.filter(
+    (plan) => data[plan.topic] && data[plan.bill]
+  );
   return (
     <Container>
       {sources

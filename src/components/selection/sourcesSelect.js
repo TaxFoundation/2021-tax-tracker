@@ -31,7 +31,6 @@ const CandidatesSelect = ({ sources }) => (
 );
 
 SelectionGroup.propTypes = {
-  heading: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
   sources: PropTypes.arrayOf(PropTypes.object),
 };
