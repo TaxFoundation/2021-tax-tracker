@@ -1,30 +1,30 @@
 - source: biden
   topic: international
-  link: https://taxfoundation.org/biden-international-tax-proposals/ 
+  link: https://taxfoundation.org/american-jobs-plan/ 
   plan: The American Jobs Plan would raise the tax rate on global intangible low-taxed income (GILTI) to 21 percent, calculate it on a country-by-country basis, and eliminate the exemption of a 10 percent return on tangible investment abroad (QBAI).
 - source: biden
   topic: corporate
-  link: https://taxfoundation.org/biden-corporate-income-tax-rate/
+  link: https://taxfoundation.org/american-jobs-plan/
   plan: The American Jobs Plan would increase the federal corporate income tax rate from 21 percent to 28 percent.
 - source: biden
   topic: corporate
-  link: https://taxfoundation.org/biden-corporate-income-tax-rate/
+  link: https://taxfoundation.org/american-jobs-plan/
   plan: The American Jobs Plan would impose a 15 percent minimum tax on corporate book income, which would be levied on a firm’s financial profits instead of taxable income for firms with revenue over $100 million.
 - source: biden
   topic: international
-  link: https://taxfoundation.org/biden-international-tax-proposals/
+  link: https://taxfoundation.org/american-jobs-plan/
   plan: The American Jobs Plan would repeal the deduction for foreign-derived intangible income (FDII).
 - source: biden
   topic: business_credits
-  link: https://taxfoundation.org/biden-infrastructure-american-jobs-plan/
+  link: https://taxfoundation.org/american-jobs-plan/
   plan: The American Jobs Plan would provide a tax credit for certain onshoring activity and deny expense deductions for offshored jobs.
 - source: biden
   topic: corporate
-  link: https://taxfoundation.org/biden-infrastructure-american-jobs-plan/
+  link: https://taxfoundation.org/american-jobs-plan/
   plan: The American Jobs Plan would increase corporate tax enforcement.
 - source: biden
   topic: business_credits
-  link: https://taxfoundation.org/biden-infrastructure-american-jobs-plan/
+  link: https://taxfoundation.org/american-jobs-plan/
   plan: The American Jobs Plan would repeal certain credits and deductions for the fossil fuel industry.
 - source: biden
   topic: individual
@@ -57,7 +57,7 @@
 - source: biden
   topic: individual_credits
   link: https://taxfoundation.org/american-families-plan/
-  plan: The American Families Plan would extend through 2025 the American Rescue Plan's enhanced Child Tax Credit (CTC) of $3,600 for children under age 6 and $3,000 for children ages 6 to 17 to certain taxpayers.
+  plan: The American Families Plan would extend through 2025 the American Rescue Plan's enhanced Child Tax Credit (CTC) of $3,600 for children under age 6 and $3,000 for children ages 6 to 17 subject to phaseouts for higher-income households.
 - source: biden
   topic: individual_credits
   link: https://taxfoundation.org/american-families-plan/
@@ -65,7 +65,7 @@
 - source: biden
   topic: individual_credits
   link: https://taxfoundation.org/american-families-plan/
-  plan: The American Families Plan would make permanent the expanded health insurance Premium Tax Credits provided in American Rescue Plan.
+  plan: The American Families Plan would make permanent the expanded health insurance Premium Tax Credits provided in the American Rescue Plan.
 - source: biden
   topic: individual_credits
   link: https://taxfoundation.org/american-families-plan/
@@ -81,7 +81,7 @@
 - source: house
   topic: corporate
   link: https://taxfoundation.org/republican-study-committee-budget/ 
-  plan: The Republican Study Comittee Budget contains many policies including permanent full and immediate expensing for investment in short-lived assets and accelerated and indexed depreciation for construction expenses.
+  plan: The Republican Study Committee Budget contains many policies including permanent full and immediate expensing for investment in short-lived assets and accelerated and indexed depreciation for construction expenses.
 - source: senate
   topic: corporate
   link: https://taxfoundation.org/end-taxpayer-subsidies-for-drug-ads-act/
@@ -97,15 +97,15 @@
 - source: senate
   topic: individual_credits
   link: https://taxfoundation.org/child-allowance-romney-tax-proposal/
-  plan: The Family Security Act would expand the Child Tax Credit, overhaul the Earned Income Tax Credit,a nd make other tax and spending changes.  
+  plan: The Family Security Act would expand the Child Tax Credit, overhaul the Earned Income Tax Credit, and make other tax and spending changes.  
 - source: senate
   topic: individual_credits
   link: https://www.congress.gov/bill/117th-congress/senate-bill/1426
   plan: The Parent Tax Credit would provide a $6,000 payment for single parents and $12,000 for married parents for children below the age of 13.   
 - source: house
-  topic: individual
+  topic: retirement
   link: https://www.congress.gov/bill/117th-congress/house-bill/2954/text
-  plan: The Securing a Strong Retirement Act of 2021 would make several changes to tax-related retirement rules.  
+  plan: The Securing a Strong Retirement Act of 2021 ("SECURE Act 2.0") would make several changes to expand automatic enrollment, incentivize small business retirement plans, and simplify retirement rules.  
 - source: senate
   topic: cap_gains
   link: https://www.vanhollen.senate.gov/download/step-act-discussion-draft
@@ -113,4 +113,52 @@
 - source: senate
   topic: estate
   link: https://www.congress.gov/bill/117th-congress/senate-bill/994
-  plan: The For the 99.5 Percent Act would reduce the estate tax exemption to $3.5 million and increase the progressivity of the estate tax with rates from 45% to 65%, among other changes.            
+  plan: The For the 99.5 Percent Act would reduce the estate tax exemption to $3.5 million (from $11.7 million in 2021) and increase the progressivity of the estate tax with rates from 45 percent to 65 percent, among other changes.    
+- source: senate
+  topic: retirement
+  link: https://www.cardin.senate.gov/imo/media/doc/Retirement%20Security%20&%20Savings%20Act%20of%202021.pdf
+  plan: The Retirement Security and Savings Act would require automatic enrollment for certain retirement plans, increase small business tax credits, and make other changes to retirement savings rules. 
+- source: senate
+  topic: retirement
+  link: https://www.grassley.senate.gov/imo/media/doc/improving_access_to_retirement_savings_act_2021_bill_text.pdf 
+  plan: The Improving Access to Retirement Savings Act would simplify retirement account rules for nonprofits, among other changes.             
+- source: senate
+  topic: wealth
+  link: https://taxfoundation.org/wealth-tax/
+  plan: The Ultra Millionaire Tax Act of 2021 would impose a progressive wealth tax on the assets of applicable taxpayers. 
+- source: house
+  topic: wealth
+  link: https://taxfoundation.org/wealth-tax/
+  plan: The Ultra Millionaire Tax Act of 2021 (identical to Senate version) would impose a progressive wealth tax on the assets of applicable taxpayers.
+- source: senate
+  topic: international
+  link: https://taxfoundation.org/intellectual-property-ip-tax-gilti-fdii/
+  plan: Three Democratic members of the Senate Finance Committee released a plan that would overhaul three aspects of international taxation--Global Intangible Low-Taxed Income (GILTI), Foreign Derived Intangible Income (FDII) and the Base Erosion and Anti-Abuse Tax (BEAT).      
+- source: senate
+  topic: corporate
+  link: https://www.congress.gov/bill/117th-congress/senate-bill/991/text?r=75&s=1
+  plan: The Corporate Tax Dodging Prevention Act would institute a progressive corporate income tax and change rules for foreign income.
+- source: senate
+  topic: corporate
+  link: https://www.congress.gov/bill/117th-congress/senate-bill/1077?q=%7B%22search%22%3A%22s.1077%22%7D&r=1&s=2
+  plan: The Permanently Preserving America's Investment in Manufacturing Act would maintain the limitation on the business interest deduction at 30 percent of EBITDA (earnings before interest, taxes, depreciation, and amortization).
+- source: house
+  topic: corporate
+  link: https://www.congress.gov/bill/117th-congress/house-bill/1304/text 
+  plan: The American Innovation and R&D Competitiveness Act would cancel research & development (R&D) amortization.  
+- source: senate
+  topic: corporate
+  link: https://www.congress.gov/bill/117th-congress/senate-bill/749
+  plan: The American Innovation and Jobs Act would cancel research & development (R&D) amortization and expand the R&D tax credit. 
+- source: house
+  topic: business_credits
+  link: https://www.congress.gov/bill/117th-congress/house-bill/848
+  plan: The GREEN Act of 2021 would extend and expand various tax credits for green energy and direct the Treasury Department to investigate carbon pricing. 
+- source: senate
+  topic: corporate
+  link: https://www.congress.gov/bill/117th-congress/senate-bill/197?r=7&s=1
+  plan: The CREATE JOBS Act would allow permanent 100 percent bonus depreciation for short-lived assets, cancel research & development (R&D) amortization, and implement a Neutral Cost Recovery System (NCRS) for investments in structures.
+- source: house
+  topic: excise
+  link: https://www.congress.gov/bill/116th-congress/house-bill/3
+  plan: The Elijah E. Cummings Lower Drug Costs Now Act would “negotiate” domestic drug prices with manufacturers and apply an excise tax on drug sales of manufacturers that do not join negotiations or accept negotiated prices. 
