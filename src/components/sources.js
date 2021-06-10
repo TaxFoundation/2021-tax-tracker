@@ -25,21 +25,17 @@ const Sources = ({ sources, plans }) => {
   );
   return (
     <Container>
-      {sources
-        .sort((a, b) => alphabeticalSort(a.name, b.name))
-        .map(
-          (source) =>
-            data[source.id] && (
-              <section key={`${source.id}-plans`}>
-                <Source
-                  source={source}
-                  plans={activePlans.filter(
-                    (plan) => plan.source === source.id
-                  )}
-                />
-              </section>
-            )
-        )}
+      {sources.map(
+        (source) =>
+          data[source.id] && (
+            <section key={`${source.id}-plans`}>
+              <Source
+                source={source}
+                plans={activePlans.filter((plan) => plan.source === source.id)}
+              />
+            </section>
+          )
+      )}
     </Container>
   );
 };
