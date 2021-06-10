@@ -4,7 +4,6 @@ import styled from "styled-components";
 
 import { Context } from "../state/reducer";
 import Source from "./source";
-import { alphabeticalSort } from "../utilities";
 
 const Container = styled.div`
   background-color: ${(props) => props.theme.white};
