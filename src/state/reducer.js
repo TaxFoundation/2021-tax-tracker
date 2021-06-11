@@ -2,10 +2,12 @@ import React, { createContext, useReducer } from "react";
 import PropTypes from "prop-types";
 
 import sources from "../generatedData/sources.json";
+import bills from "../generatedData/bills.json";
 import topics from "../generatedData/topics.json";
 
 const initialState = {};
 sources.forEach((source) => (initialState[source.id] = source.active));
+bills.map((bill) => (initialState[bill.id] = true));
 topics.map((topic) => (initialState[topic.id] = true));
 
 const toggleSubset = (subset, state) => {
@@ -33,6 +35,9 @@ const reducer = (state, action) => {
         sources.filter((source) => !source.running),
         state
       );
+    }
+    case "toggleBills": {
+      return toggleSubset(bills, state);
     }
     case "toggleTopics": {
       return toggleSubset(topics, state);

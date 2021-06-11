@@ -5,6 +5,7 @@ import { Provider } from "./state/reducer";
 import Theme from "./Theme";
 import Selection from "./components/selection";
 import Sources from "./components/sources";
+import bills from "./generatedData/bills";
 import sources from "./generatedData/sources";
 import topics from "./generatedData/topics";
 import plans from "./generatedData/plans";
@@ -47,7 +48,7 @@ function App() {
     <ThemeProvider theme={Theme}>
       <Provider>
         <GlobalStyle />
-        <Selection sources={sources} topics={topics} />
+        <Selection bills={bills} sources={sources} topics={topics} />
         <Sources sources={sources} topics={topics} plans={plans} />
       </Provider>
     </ThemeProvider>

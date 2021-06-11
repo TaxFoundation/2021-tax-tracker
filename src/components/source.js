@@ -44,7 +44,6 @@ const Portrait = styled.div`
 
 const StyledImage = styled.img`
   border-radius: 50%;
-  filter: ${(props) => (props.active ? "none" : "grayscale(100%)")};
   margin: 0 auto;
   max-width: 150px;
   width: 100%;
@@ -113,13 +112,7 @@ const Source = ({ source, plans }) => {
   return (
     <StyledCandidate>
       <Portrait>
-        {image ? (
-          <StyledImage
-            src={image.image}
-            alt={attribution}
-            active={source.running}
-          />
-        ) : null}
+        {image ? <StyledImage src={image.image} alt={attribution} /> : null}
         <h3>{source.name}</h3>
       </Portrait>
       {plans.length ? (

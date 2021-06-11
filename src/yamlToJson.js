@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const dataDirectory = "./src/data/";
 const generatedDataDirectory = "./src/generatedData/";
-const inputs = ["sources", "topics", "plans"];
+const inputs = ["bills", "sources", "topics", "plans"];
 
 const updateData = (input) => {
   try {
