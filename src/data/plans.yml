@@ -131,7 +131,7 @@
 - source: house
   topic: retirement
   bill: other
-  link: https://www.congress.gov/bill/117th-congress/house-bill/2954/text
+  link: https://taxfoundation.org/retirement-savings-proposals/
   plan: The Securing a Strong Retirement Act of 2021 ("SECURE Act 2.0") would make several changes to expand automatic enrollment, incentivize small business retirement plans, and simplify retirement rules.
 - source: senate
   topic: cap_gains
@@ -146,12 +146,12 @@
 - source: senate
   topic: retirement
   bill: other
-  link: https://www.cardin.senate.gov/imo/media/doc/Retirement%20Security%20&%20Savings%20Act%20of%202021.pdf
+  link: https://taxfoundation.org/retirement-savings-proposals/ 
   plan: The Retirement Security and Savings Act would require automatic enrollment for certain retirement plans, increase small business tax credits, and make other changes to retirement savings rules.
 - source: senate
   topic: retirement
   bill: other
-  link: https://www.grassley.senate.gov/imo/media/doc/improving_access_to_retirement_savings_act_2021_bill_text.pdf
+  link: https://taxfoundation.org/retirement-savings-proposals/ 
   plan: The Improving Access to Retirement Savings Act would simplify retirement account rules for nonprofits, among other changes.
 - source: senate
   topic: wealth
@@ -227,4 +227,9 @@
   topic: excise
   bill: other
   link: https://donyoung.house.gov/news/documentsingle.aspx?DocumentID=402010
-  plan: The Young Plan for America's Infrastructure Future would explore replacing motor fuel excise taxes with a user fee.      
+  plan: The Young Plan for America's Infrastructure Future would explore replacing motor fuel excise taxes with a user fee.  
+- source: senate
+  topic: corporate
+  bill: other
+  link: https://www.coons.senate.gov/news/press-releases/sens-coons-daines-lead-bipartisan-bill-to-boost-federal-investment-in-american-randd-and-a-highly-skilled-workforce 
+  plan: The FORWARD Act would expand the research & development (R&D) tax credit.
