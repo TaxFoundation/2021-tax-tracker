@@ -21,10 +21,10 @@ const SelectionGroup = ({ id, sources }) => (
   </>
 );
 
-const CandidatesSelect = ({ sources }) => (
+const CandidatesSelect = ({ id, sources }) => (
   <>
     <SelectionGroup
-      id="toggleSource"
+      id={id}
       sources={sources.sort((a, b) => alphabeticalSort(a.name, b.name))}
     />
   </>
