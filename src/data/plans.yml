@@ -238,3 +238,8 @@
   bill: other
   link: https://taxfoundation.org/semiconductor-manufacturing-tax-credit/  
   plan: The Facilitating American-Built Semiconductors (FABS) Act would create a permanent 25 percent investment tax credit for investments in semiconductor manufacturing equipment and facilities.
+- source: senate
+  topic: passthrough
+  bill: other
+  link: https://www.finance.senate.gov/imo/media/doc/7.19.21%20Small%20Business%20Tax%20Fairness%20Act.pdf
+  plan: The Small Business Tax Fairness Act would phase out the Section 199A Pass-Through Deduction for taxpayers with more than $400,000 in taxable income while expanding its availability for taxpayers making under that amount, among other changes.
