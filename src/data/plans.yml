@@ -176,17 +176,17 @@
 - source: senate
   topic: corporate
   bill: other
-  link: https://www.congress.gov/bill/117th-congress/senate-bill/1077?q=%7B%22search%22%3A%22s.1077%22%7D&r=1&s=2
+  link: https://taxfoundation.org/upcoming-federal-tax-changes/
   plan: The Permanently Preserving America's Investment in Manufacturing Act would maintain the limitation on the business interest deduction at 30 percent of EBITDA (earnings before interest, taxes, depreciation, and amortization).
 - source: house
   topic: corporate
   bill: other
-  link: https://www.congress.gov/bill/117th-congress/house-bill/1304/text
+  link: https://taxfoundation.org/upcoming-federal-tax-changes/ 
   plan: The American Innovation and R&D Competitiveness Act would cancel research & development (R&D) amortization.
 - source: senate
   topic: corporate
   bill: other
-  link: https://www.congress.gov/bill/117th-congress/senate-bill/749
+  link: https://taxfoundation.org/upcoming-federal-tax-changes/
   plan: The American Innovation and Jobs Act would cancel research & development (R&D) amortization and expand the R&D tax credit.
 - source: house
   topic: business_credits
@@ -196,7 +196,7 @@
 - source: senate
   topic: corporate
   bill: other
-  link: https://www.congress.gov/bill/117th-congress/senate-bill/197?r=7&s=1
+  link: https://taxfoundation.org/upcoming-federal-tax-changes/
   plan: The CREATE JOBS Act would allow permanent 100 percent bonus depreciation for short-lived assets, cancel research & development (R&D) amortization, and implement a Neutral Cost Recovery System (NCRS) for investments in structures.
 - source: house
   topic: excise
@@ -211,7 +211,7 @@
 - source: house
   topic: corporate
   bill: other
-  link: https://arrington.house.gov/uploadedfiles/arring_006_xml.pdf
+  link: https://taxfoundation.org/upcoming-federal-tax-changes/
   plan: The ALIGN Act would allow permanent 100 percent bonus depreciation for short-lived assets.
 - source: house
   topic: corporate
