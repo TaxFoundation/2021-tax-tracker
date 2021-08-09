@@ -30,11 +30,8 @@ const reducer = (state, action) => {
         state
       );
     }
-    case "toggleDroppedCandidates": {
-      return toggleSubset(
-        sources.filter((source) => !source.running),
-        state
-      );
+    case "toggleSources": {
+      return toggleSubset(sources, state);
     }
     case "toggleBills": {
       return toggleSubset(bills, state);

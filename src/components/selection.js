@@ -71,12 +71,12 @@ const Selection = ({ bills, sources, topics }) => {
       >
         <Selections ref={selectionsRef}>
           <section>
-            <SectionHeading>Plan</SectionHeading>
-            <SourcesSelect sources={bills} />
+            <SectionHeading>Source of Plan</SectionHeading>
+            <SourcesSelect id='toggleSources' sources={sources} />
           </section>
           <section>
-            <SectionHeading>Source of Plan</SectionHeading>
-            <SourcesSelect sources={sources} />
+            <SectionHeading>Plan</SectionHeading>
+            <SourcesSelect id='toggleBills' sources={bills} />
           </section>
           <section>
             <SectionHeading>Topics</SectionHeading>
