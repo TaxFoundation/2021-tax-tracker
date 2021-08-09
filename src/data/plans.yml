@@ -176,17 +176,17 @@
 - source: senate
   topic: corporate
   bill: other
-  link: https://www.congress.gov/bill/117th-congress/senate-bill/1077?q=%7B%22search%22%3A%22s.1077%22%7D&r=1&s=2
+  link: https://taxfoundation.org/upcoming-federal-tax-changes/
   plan: The Permanently Preserving America's Investment in Manufacturing Act would maintain the limitation on the business interest deduction at 30 percent of EBITDA (earnings before interest, taxes, depreciation, and amortization).
 - source: house
   topic: corporate
   bill: other
-  link: https://www.congress.gov/bill/117th-congress/house-bill/1304/text
+  link: https://taxfoundation.org/upcoming-federal-tax-changes/ 
   plan: The American Innovation and R&D Competitiveness Act would cancel research & development (R&D) amortization.
 - source: senate
   topic: corporate
   bill: other
-  link: https://www.congress.gov/bill/117th-congress/senate-bill/749
+  link: https://taxfoundation.org/upcoming-federal-tax-changes/
   plan: The American Innovation and Jobs Act would cancel research & development (R&D) amortization and expand the R&D tax credit.
 - source: house
   topic: business_credits
@@ -196,7 +196,7 @@
 - source: senate
   topic: corporate
   bill: other
-  link: https://www.congress.gov/bill/117th-congress/senate-bill/197?r=7&s=1
+  link: https://taxfoundation.org/upcoming-federal-tax-changes/
   plan: The CREATE JOBS Act would allow permanent 100 percent bonus depreciation for short-lived assets, cancel research & development (R&D) amortization, and implement a Neutral Cost Recovery System (NCRS) for investments in structures.
 - source: house
   topic: excise
@@ -211,7 +211,7 @@
 - source: house
   topic: corporate
   bill: other
-  link: https://arrington.house.gov/uploadedfiles/arring_006_xml.pdf
+  link: https://taxfoundation.org/upcoming-federal-tax-changes/
   plan: The ALIGN Act would allow permanent 100 percent bonus depreciation for short-lived assets.
 - source: house
   topic: corporate
@@ -238,3 +238,63 @@
   bill: other
   link: https://taxfoundation.org/semiconductor-manufacturing-tax-credit/  
   plan: The Facilitating American-Built Semiconductors (FABS) Act would create a permanent 25 percent investment tax credit for investments in semiconductor manufacturing equipment and facilities.
+- source: senate
+  topic: passthrough
+  bill: other
+  link: https://www.finance.senate.gov/imo/media/doc/7.19.21%20Small%20Business%20Tax%20Fairness%20Act.pdf
+  plan: The Small Business Tax Fairness Act would phase out the Section 199A Pass-Through Deduction for taxpayers with more than $400,000 in taxable income while expanding its availability for taxpayers making under that amount, among other changes.
+- source: senate
+  topic: cap_gains
+  bill: other
+  link: https://www.finance.senate.gov/chairmans-news/wyden-whitehouse-bill-ensures-private-equity-moguls-pay-fair-share-in-taxes
+  plan: The Ending the Carried Interest Loophole Act would treat carried interest as ordinary income and end deferral treatment by requiring investment managers to recognize a deemed compensation amount annually, taxed at ordinary rates and subject to self-employment taxes.
+- source: senate
+  topic: cap_gains
+  bill: other
+  link: https://www.finance.senate.gov/chairmans-news/wyden-bill-ensures-wealthy-investors-pay-fair-share-in-taxes
+  plan: The Modernization of Derivatives Tax Act would require mark-to-market and ordinary income tax treatment for all derivative contracts, sourcing gains and losses to the taxpayer’s country of residence, among other changes.
+- source: senate
+  topic: corporate
+  bill: other
+  link: https://www.democrats.senate.gov/imo/media/doc/MEMORANDUM%20for%20Democratic%20Senators%20-%20FY2022%20Budget%20Resolution.pdf
+  plan: The FY2022 Budget Resolution Agreement Framework proposes corporate tax increases as an offset. 
+- source: senate
+  topic: international
+  bill: other
+  link: https://www.democrats.senate.gov/imo/media/doc/MEMORANDUM%20for%20Democratic%20Senators%20-%20FY2022%20Budget%20Resolution.pdf
+  plan: The FY2022 Budget Resolution Agreement Framework proposes international tax reform as an offset.   
+- source: senate
+  topic: individual
+  bill: other
+  link: https://www.democrats.senate.gov/imo/media/doc/MEMORANDUM%20for%20Democratic%20Senators%20-%20FY2022%20Budget%20Resolution.pdf
+  plan: The FY2022 Budget Resolution Agreement Framework proposes tax increases on high-income households as an offset.   
+- source: senate
+  topic: excise
+  bill: other
+  link: https://www.democrats.senate.gov/imo/media/doc/MEMORANDUM%20for%20Democratic%20Senators%20-%20FY2022%20Budget%20Resolution.pdf
+  plan: The FY2022 Budget Resolution Agreement Framework proposes “Carbon Polluter Import Fees” as an offset.   
+- source: senate
+  topic: corporate
+  bill: other
+  link: https://www.democrats.senate.gov/imo/media/doc/MEMORANDUM%20for%20Democratic%20Senators%20-%20FY2022%20Budget%20Resolution.pdf
+  plan: The FY2022 Budget Resolution Agreement Framework proposes Internal Revenue Service (IRS) tax enforcement as an offset.   
+- source: senate
+  topic: individual
+  bill: other
+  link: https://www.democrats.senate.gov/imo/media/doc/MEMORANDUM%20for%20Democratic%20Senators%20-%20FY2022%20Budget%20Resolution.pdf
+  plan: The FY2022 Budget Resolution Agreement Framework proposes relieving the cap on the itemized deduction for State and Local Taxes (SALT cap).   
+- source: senate
+  topic: individual_credits
+  bill: other
+  link: https://www.democrats.senate.gov/imo/media/doc/MEMORANDUM%20for%20Democratic%20Senators%20-%20FY2022%20Budget%20Resolution.pdf
+  plan: The FY2022 Budget Resolution Agreement Framework proposes extending the expanded Child Tax Credit (CTC), Earned Income Tax Credit (EITC), and Child and Dependent Care Tax Credit (CDCTC).
+- source: senate
+  topic: business_credits
+  bill: other
+  link: https://www.democrats.senate.gov/imo/media/doc/MEMORANDUM%20for%20Democratic%20Senators%20-%20FY2022%20Budget%20Resolution.pdf
+  plan: The FY2022 Budget Resolution Agreement Framework proposes tax incentives for clean energy, manufacturing, and transportation.  
+- source: senate
+  topic: individual_credits
+  bill: other
+  link: https://www.democrats.senate.gov/imo/media/doc/MEMORANDUM%20for%20Democratic%20Senators%20-%20FY2022%20Budget%20Resolution.pdf
+  plan: The FY2022 Budget Resolution Agreement Framework proposes extending the expansion of the Affordable Care Act’s Premium Tax Credits.   
