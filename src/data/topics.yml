@@ -53,3 +53,9 @@
   name: Excise Taxes
   category: business
   description:
+- id: other
+  order: 12
+  name: Other
+  category: individual
+  description: 
+
