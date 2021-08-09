@@ -53,9 +53,9 @@
   name: Excise Taxes
   category: business
   description:
-- id: other
+- id: irs
   order: 12
-  name: Other
+  name: IRS Enforcement
   category: individual
   description: 
 
