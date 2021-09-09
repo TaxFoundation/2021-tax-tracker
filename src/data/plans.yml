@@ -166,7 +166,7 @@
 - source: senate
   topic: international
   bill: other
-  link: https://www.finance.senate.gov/imo/media/doc/section%20by%20section%20-%20WBW%20Framework%20discussion%20draft%208.20.21%20FINAL.pdf 
+  link: https://taxfoundation.org/senate-international-tax-overhaul/ 
   plan: Three Democratic members of the Senate Finance Committee released a new draft bill that would overhaul three aspects of international taxation--Global Intangible Low-Taxed Income (GILTI), Foreign Derived Intangible Income (FDII) and the Base Erosion and Anti-Abuse Tax (BEAT).
 - source: senate
   topic: corporate
@@ -241,17 +241,17 @@
 - source: senate
   topic: passthrough
   bill: other
-  link: https://www.finance.senate.gov/imo/media/doc/7.19.21%20Small%20Business%20Tax%20Fairness%20Act.pdf
+  link: https://taxfoundation.org/wyden-199a-pass-through-deduction/ 
   plan: The Small Business Tax Fairness Act would phase out the Section 199A Pass-Through Deduction for taxpayers with more than $400,000 in taxable income while expanding its availability for taxpayers making under that amount, among other changes.
 - source: senate
   topic: cap_gains
   bill: other
-  link: https://www.finance.senate.gov/chairmans-news/wyden-whitehouse-bill-ensures-private-equity-moguls-pay-fair-share-in-taxes
+  link: https://taxfoundation.org/wyden-mark-to-market/ 
   plan: The Ending the Carried Interest Loophole Act would treat carried interest as ordinary income and end deferral treatment by requiring investment managers to recognize a deemed compensation amount annually, taxed at ordinary rates and subject to self-employment taxes.
 - source: senate
   topic: cap_gains
   bill: other
-  link: https://www.finance.senate.gov/chairmans-news/wyden-bill-ensures-wealthy-investors-pay-fair-share-in-taxes
+  link: https://taxfoundation.org/wyden-mark-to-market/ 
   plan: The Modernization of Derivatives Tax Act would require mark-to-market and ordinary income tax treatment for all derivative contracts, sourcing gains and losses to the taxpayer’s country of residence, among other changes.
 - source: senate
   topic: corporate
@@ -297,4 +297,9 @@
   topic: individual_credits
   bill: other
   link: https://www.democrats.senate.gov/imo/media/doc/MEMORANDUM%20for%20Democratic%20Senators%20-%20FY2022%20Budget%20Resolution.pdf
-  plan: The FY2022 Budget Resolution Agreement Framework proposes extending the expansion of the Affordable Care Act’s Premium Tax Credits.   
+  plan: The FY2022 Budget Resolution Agreement Framework proposes extending the expansion of the Affordable Care Act’s Premium Tax Credits. 
+- source: senate
+  topic: individual_credits
+  bill: other
+  link: https://taxfoundation.org/wyden-housing-crisis/
+  plan: The Decent Affordable Safe Housing (DASH) For All Act largely focuses on tax credits designed to either incentivize new housing or directly reduce rent burdens.    
